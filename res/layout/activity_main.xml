@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.instanza.activity.starttest" >
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"> 
+       
+       
+ 	   
+ 	    <TextView
+        android:id="@+id/sendmsgtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+ 	    <Button
+        android:id="@+id/sendmsgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+ 	   <TextView
+        android:id="@+id/memtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+ 	   
+ 	   <Button
+        android:id="@+id/membtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+ 	  
+    </LinearLayout>
+	
+
+</RelativeLayout>
